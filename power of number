@@ -1,0 +1,17 @@
+
+#include <stdio.h>
+#include <math.h>
+int main() {
+  int x, y, power;
+  
+  printf("Enter a  number :");
+  scanf("%d", &x);
+  
+  printf("Enter another number :");
+  scanf("%d", &y);
+  
+  int power = pow(x,y);
+  printf("power");
+
+  return 0;
+}
